@@ -11,13 +11,16 @@
     "react-scripts": "5.0.1",
     "react-spinners": "^0.12.0",
     "use-debounce": "^8.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "http://abhishekd879.github.io/React__Test/june05test/"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
