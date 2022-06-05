@@ -1,0 +1,26 @@
+.recipiConttainer{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 11;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    color: white;
+    padding: 20px;
+    backdrop-filter: blur(2px);
+}
+.recipeInformation{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.recipeInformation>h2,.recipeInformation>h1{
+    font-size: 1.5rem;
+}
+.ingredients{
+    max-height: 40%;
+    overflow: scroll;
+}
